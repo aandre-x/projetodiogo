@@ -1,0 +1,19 @@
+footer{ 
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    margin-top: 300px;
+    color: black;
+}
+
+.imagens img {
+    margin-right: 20px;
+    border-radius: 10px;
+    max-width: 90%; 
+    height: auto;
+}
+
+/*#343A40*/

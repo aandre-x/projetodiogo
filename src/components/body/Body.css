@@ -1,0 +1,12 @@
+.Body {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Reciclube {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
