@@ -1,34 +1,26 @@
 import React from 'react';
 import './Body.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Body() {
     return (
       <div className='Body'>
-        <h2><b>Quem somos nós?</b></h2>
-  
-        <p>A Reciclube é uma aplicação que promove parcerias com mercados e lojas para que possam coletar materiais recicláveis 
-          levados pelos clientes cadastrados no app do Reciclube em pontos de coleta facilmente encontrados. O objetivo é que 
-          os clientes dos mercados, lojas e afins se cadastrem no App gerando assim para os mesmos uma pontuação para uma certa 
-          quantidade de Itens recicláveis trazidos até os pontos de coletas das lojas parceiras.</p>
 
-        
-        <img
-          src="https://recicleiros.org.br/wp-content/uploads/2023/05/recicla_campo-largo1.png-2048x1366.jpg"
-          className="Reciclube"
-          alt="Imagem Reciclube"
-          />
-      
-        <p>
-        </p>
-  
-        <p>Os pontos acumulados serão trocados por premiações como cupons de descontos em lojas parceiras, gift cards, 
-          vouchers, etc. A quantidade de pontos gerados será definida pelo tipo do lixo, como uma garrafa pet, uma vasilha 
-          ou latinhas, ajudando assim a dar um novo destino ao lixo do ambiente urbano e incentivando boas práticas de sustentabilidade.</p>
+        <h2><b>Transforme resíduos em recompensas</b></h2>
+
+        <p>Na Reciclub, acreditamos que cada pequena ação é importante. Ao reciclar materiais como garrafas PET, latas 
+        e embalagens, você não só ajuda o meio ambiente, mas também acumula pontos que podem ser trocados por prêmios 
+        e descontos em lojas parceiras. Junte-se a nós e faça parte de uma comunidade que está construindo um futuro 
+        mais sustentável, onde os resíduos ganham novo valor e cada reciclagem é uma oportunidade de ganhar recompensas.</p>
+
+        <img src="https://recicleiros.org.br/wp-content/uploads/2023/05/recicla_campo-largo1.png-2048x1366.jpg" className="Reciclube" alt="Imagem Reciclube"/>
+
+        <h2>Acumule pontos e troque por prêmios incríveis!</h2>
+
+        <p>Recicle materiais como garrafas PET, vasilhas e latinhas e transforme-os em cupons de desconto, gift cards, vouchers e
+        muito mais. Quanto mais você reciclar, mais pontos acumula, e a quantidade de pontos varia de acordo com o tipo de 
+        resíduo. Junte-se ao movimento, dê um novo destino ao lixo urbano e ajude a construir um futuro mais limpo e sustentável. 
+        Comece agora e faça a diferença!</p>
     
-
-
       </div>
     );
   }
-  

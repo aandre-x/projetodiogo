@@ -1,0 +1,43 @@
+.Score {
+    background-color: #f4f4f9;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Score ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Score li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.Score li:hover {
+    transform: scale(1.05);
+}
+
+.Score .item {
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.Score .pontos {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1em;
+}
