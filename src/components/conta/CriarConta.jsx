@@ -14,7 +14,7 @@ export default function CriarConta() {
 
   return (
     <div className="container">
-      <h2>Criação de Conta</h2>
+      <h2>Cadastre-se</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="username">Usuário:</label>
@@ -46,7 +46,7 @@ export default function CriarConta() {
             className="form-control"
           />
         </div>
-        <button type="submit" className="btn btn-primary">Criar Conta</button>
+        <button type="submit" className="btn btn-primary">Cadastre-se</button>
       </form>
     </div>
   );

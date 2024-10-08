@@ -5,8 +5,7 @@ export default function Footer() {
   return (
     <div className='imagens'>
       <footer>
-        <p>&copy; 2023 . Todos os direitos reservados.</p>
-    
+        <p>&copy; 2024 Reciclub. Todos os direitos reservados.</p>
         <a href="" target="_blank" rel="noopener noreferrer">
           <img src="fotos/instagram.png" alt="Instagram" />
         </a> 
