@@ -12,17 +12,6 @@ import Login from './components/login/Login.jsx'
 import Score from './components/score/Score.jsx'
 import Sobre from './components/sobre/Sobre.jsx'
 
-/*const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Body/>,
-  },
-  {
-    path: "/conta",
-    element: <CriarConta/>,
-  },
-])*/
-
 const router = createBrowserRouter([
   {
     path: "/",
