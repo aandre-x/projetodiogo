@@ -10,7 +10,7 @@ export default function Navb() {
         <Container>
           <Navbar.Brand href="Inicio">Reciclub</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="Score Pessoal">Score Pessoal</Nav.Link>
+            <Nav.Link href="Score">Score</Nav.Link>
             <Nav.Link href="Sobre">Sobre nós</Nav.Link>
             <Nav.Link href="Conta">Criar conta</Nav.Link>
             <Nav.Link href="Login">Login</Nav.Link>
