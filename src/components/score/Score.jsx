@@ -20,6 +20,10 @@ export default function Score() {
               <span class="pontos"> 15 pontos</span>
           </li>
           <li>
+              <span class="item">Plástico(Kg)</span>
+              <span class="pontos"> 15 pontos</span>
+          </li>
+          <li>
               <span class="item">Lata de alumínio(Kg)</span>
               <span class="pontos"> 20 pontos</span>
           </li>
