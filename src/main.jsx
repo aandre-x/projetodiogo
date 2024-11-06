@@ -3,14 +3,13 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 
-// Configurando router
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 
-import Body from './components/body/Body.jsx';
-import CriarConta from './components/conta/CriarConta.jsx';
-import Login from './components/login/Login.jsx';
-import Score from './components/score/Score.jsx';
-import Sobre from './components/sobre/Sobre.jsx';
+import Body from './pages/body/Body.jsx';
+import CriarConta from './pages/conta/CriarConta.jsx';
+import Login from './pages/login/Login.jsx';
+import Score from './pages/score/Score.jsx';
+import Sobre from './pages/sobre/Sobre.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +17,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        index: true,  
+        index: true,
         element: <Navigate to="/inicio" replace />,
       },
       {
