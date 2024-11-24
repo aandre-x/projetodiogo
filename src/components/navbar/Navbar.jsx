@@ -1,22 +1,20 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "./Navbar.css";
 
-export default function Navb() {
+const Navbar = () => {
   return (
-    <>
-      <Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="Inicio">Reciclub</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="Score">Score</Nav.Link>
-            <Nav.Link href="Sobre">Sobre nós</Nav.Link>
-            <Nav.Link href="Conta">Criar conta</Nav.Link>
-            <Nav.Link href="Login">Login</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+    <nav className="navbar">
+      <ul className="navbar-menu">
+        <li>
+          <a href="#home" className="navbar-logo">Reciclub</a>
+        </li>
+        <li className="navbar-item"><a href="#score">Score</a></li>
+        <li className="navbar-item"><a href="#sobre-nos">Sobre nós</a></li>
+        <li className="navbar-item"><a href="#cadastre-se">Cadastre-se</a></li>
+        <li className="navbar-item"><a href="#login">Login</a></li>
+      </ul>
+    </nav>
   );
-}
+};
+
+export default Navbar;
